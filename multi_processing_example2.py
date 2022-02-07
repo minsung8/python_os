@@ -20,7 +20,6 @@ def main():
         for future in as_completed(future_to_url):
             url = future_to_url[future]
 
-            print(url)
             try:
                 data = future.result()
             except Exception as e:
