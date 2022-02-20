@@ -26,7 +26,7 @@ def main():
         'https://www.jython.org',
         'http://olympus.realpython.org/dice',
         'https://realpython.com'
-    ] * 5
+    ] * 50
 
     start_time = time.time()
 
@@ -38,3 +38,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# 61s
