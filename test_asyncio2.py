@@ -1,6 +1,4 @@
-import multiprocessing
 from re import L
-import requests
 import time
 import asyncio
 import aiohttp

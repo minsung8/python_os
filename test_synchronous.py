@@ -15,7 +15,7 @@ def main():
         'https://www.jython.org',
         'http://olympus.realpython.org/dice',
         'https://realpython.com'
-    ] * 5
+    ] * 50
 
     start_time = time.time()
 
